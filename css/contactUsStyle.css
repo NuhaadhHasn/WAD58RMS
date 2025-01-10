@@ -1,0 +1,109 @@
+.form {
+    /* background-color: #1f1b24; */
+    padding: 2% 0 4% 0;
+    margin-top: 4%;
+    padding-bottom: 15%;
+}
+
+.card {
+    margin: 8% auto -2% auto;
+    width: 440px;
+    height: 620px;
+    background: #fff;
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    box-shadow: 30px 14px 28px rgba(0, 0, 5, 0.2),
+        0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 90px;
+}
+
+.contactTitle {
+    margin: 20px 10px 30px 10px;
+    padding-bottom: 10px;
+    width: 220px;
+    color: #008ecf;
+    border-bottom: 3px solid;
+}
+
+.textInput {
+    width: 100%;
+    padding: 5% 10% 4% 10%;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgb(27, 22, 34);
+}
+
+.textInput:focus {
+    border-bottom: 2px solid #008ecf;
+}
+
+.pType:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0% 5% 0%;
+    font-size: 20px;
+    color: #008ecf;
+}
+
+.btn {
+    float: right;
+    padding: 18px 20px;
+    margin: 20px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #008ecf;
+    background: #008ecf;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #fff;
+}
+
+.detailContainer {
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background-color: #008ecf;
+    color: white;
+    padding: 16px 8px 16px 0px;
+    font-size: 15px;
+}
+
+.detailContainer span {
+    margin: 0px 5px 0px 15px;
+}
+
+@media (max-width: 800px) {
+    .navBar #navCheck:checked ~ .navLinks {
+        height: 200px;
+        overflow-y: auto;
+    }
+
+    /* Social */
+    .social {
+        padding-top: 5%;
+    }
+
+    /* Logo */
+    @media (max-width: 300px) {
+        /* Social */
+        .social {
+            padding-top: 20%;
+        }
+    }
+}

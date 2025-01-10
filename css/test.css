@@ -1,0 +1,46 @@
+.model-container {
+    width: 800px;
+    min-height: 580px;
+    border-radius: 20px;
+    opacity: 100%;
+}
+.form-container form {
+    align-items: normal;
+}
+.close {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.form-container input,
+select {
+    background: #eee;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.form-container input:hover,
+select:hover {
+    transform: scale(105%);
+}
+
+button {
+    align-self: center;
+    width: 80%;
+}
+.form-container {
+    left: 10px;
+}
+.admin-container {
+    left: 50%;
+    width: 50%;
+    z-index: 2;
+}
+
+.display-container {
+    left: 0;
+    width: 50%;
+}

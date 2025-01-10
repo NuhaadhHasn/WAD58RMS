@@ -1,0 +1,189 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.imgResponsive {
+    width: 100%;
+}
+
+.imgCurve {
+    border-radius: 15px;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textWhite {
+    color: white;
+}
+
+.clearFix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4757;
+}
+
+/* .btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ff4757;
+} */
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.floatContainer {
+    position: relative;
+}
+
+.floatText {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        width: 90%;
+        padding: 2%;
+    }
+
+    .h2 {
+        margin-bottom: 10%;
+    }
+}
+
+.productList {
+    background-color: #015871;
+    padding-top: 4%;
+    margin-top: 4%;
+}
+
+.productListBox {
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    box-shadow: 30px 14px 28px rgba(0, 0, 5, 0.2),
+        0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.productListImg {
+    width: 20%;
+    float: left;
+}
+
+.productListDesc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.productPrice {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.productDetail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+.category {
+    padding: 4% 0;
+}
+
+.box-3 {
+    /* border: 1px solid black; */
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+button {
+    border-radius: 50px;
+    box-shadow: 0 1px 1px;
+    border: 1px solid #008ecf;
+    background: #008ecf;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background: transparent;
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .category {
+        padding: 20% 0;
+    }
+
+    .box-3 {
+        width: 90%;
+        margin: 4% auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .productList {
+        padding: 20% 0;
+    }
+
+    .productListBox {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+}
