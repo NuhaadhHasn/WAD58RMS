@@ -29,11 +29,11 @@ WAD58RMS is a web-based application designed to manage and streamline restaurant
 
 ### Index Page
 
-![Screenshot of Index Page](./screenShots/rms.png)
+![Screenshot of Index Page](./screenShots/RMS.png)
 
 ### Login Page
 
-![Screenshot of Index Page](./screenShots/logins.png)
+![Screenshot of Index Page](./screenShots/Logins.png)
 
 ### Admin Dashboard Page
 
